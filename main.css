@@ -1,0 +1,178 @@
+* {
+
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    padding: 10px;
+    background-color: #e49b48;
+    color: #fff;
+}
+
+header h1 {
+    font-size: 80px;
+    font-family: "Lobster", sans-serif;
+    text-align: center;
+}
+
+header h2 {
+    font-size: 50px;
+    font-family: "Amatic SC", sans-serif;
+    text-align: left;
+}
+
+header h2 img {
+    height: 50px;
+    align-items: center;
+}
+
+header nav li {
+    text-align: center;
+    margin: 0 65px;
+}
+
+header nav li img {
+    height: 100px;
+    display: block;
+}
+
+header nav li a {
+    font-size: 25px;
+    text-decoration: none;
+    display: flex;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    color: #ecf0f1;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+    margin-top: 5px 20px;
+}
+
+body {
+    margin: 10x;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto;
+    max-width: 1100px;
+}
+
+.container.div1,
+.container .div2 {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+}
+
+.container img {
+    max-width: 400px;
+    height: auto;
+}
+
+
+#saladas {
+    background-color: #58e482;
+}
+
+#pratos-p {
+    background-color: #f1bc6b;
+}
+
+#vegetariano {
+    background-color: #a0793e;
+}
+
+#candy {
+    background-color: rgb(255, 192, 203);
+}
+
+section .container p {
+    font-family: "Roboto Slab", serif;
+}
+
+section div h3 {
+    font-family: "Nunito", sans-serif;
+    font-size: 23px;
+}
+
+section div h4 {
+    font-family: "Montserrat", sans-serif;
+    font: size 19px;
+    ;
+}
+
+#contact .container h5 {
+    font-family: "Bungee", sans-serif;
+    font-size: 30px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+#contact .container h6{
+    font-family: "Bungee", sans-serif;
+    font-size: 25px;
+    margin-bottom: 16px;
+    display: block;
+}
+
+#contact .container{
+    display: block;
+}
+
+section .container .methods{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 280px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 108px;
+}
+
+form button{
+    background-color: #e49b48;
+    font-family: "Roboto Slab", serif;
+    border: none;
+    cursor: pointer;
+}
+input:focus,
+textarea:focus{
+    outline: #a0793e;
+}
+
+.social-links img{
+    height: 24px;
+}
+
+.social-links li  {
+    display: inline;
+    margin: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+
+footer{
+    background-color: #2a4eb1;
+    color: #ecf0f1;
+    padding: 16px 0;
+}
